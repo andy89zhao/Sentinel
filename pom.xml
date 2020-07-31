@@ -67,6 +67,22 @@
         <maven.pmd.version>3.8</maven.pmd.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>aliyun-nexus</id>
+            <name>aliyun nexus</name>
+            <url>https://maven.aliyun.com/repository/public/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>aliyun-nexus</id>
+            <name>aliyun nexus</name>
+            <url>https://maven.aliyun.com/repository/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
     <modules>
         <module>sentinel-core</module>
         <module>sentinel-extension</module>
