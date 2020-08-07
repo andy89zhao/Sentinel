@@ -25,7 +25,13 @@ public final class NacosConfigUtil {
     
     public static final String FLOW_DATA_ID_POSTFIX = "-flow-rules";
     public static final String PARAM_FLOW_DATA_ID_POSTFIX = "-param-rules";
+    public static final String DEGRADE_DATA_ID_POSTFIX = "-degrade-rules";
+    public static final String SYSTEM_DATA_ID_POSTFIX = "-system-rules";
+    public static final String AUTHORITY_DATA_ID_POSTFIX = "-authority-rules";
+    public static final String DASHBOARD_POSTFIX = "-dashboard";
     public static final String CLUSTER_MAP_DATA_ID_POSTFIX = "-cluster-map";
+    public static final String GATEWAY_FLOW_DATA_ID_POSTFIX = "-gw-flow-rules";
+    public static final String GATEWAY_API_DATA_ID_POSTFIX = "-gw-api-definitions";
 
     /**
      * cc for `cluster-client`

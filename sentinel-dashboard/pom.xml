@@ -19,7 +19,7 @@
         <curator.version>4.0.1</curator.version>
         <dockerfile-maven-plugin.version>1.4.12</dockerfile-maven-plugin.version>
         <docker.image.prefix>ccr.ccs.tencentyun.com/baseplatform</docker.image.prefix>
-        <project-docker.version>1.8.2</project-docker.version>
+        <project-docker.version>1.8.3</project-docker.version>
     </properties>
 
     <dependencies>
